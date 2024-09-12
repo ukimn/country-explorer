@@ -1,0 +1,74 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: black;
+}
+
+
+img{
+    margin-top: 20px;
+}
+
+input{
+    padding: 10px;
+    font-size: 3rem;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+button{
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 3rem;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: 0.4s ease;
+}
+
+button:active{
+    background-color: red;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+/* Default styles for larger screens are already defined */
+
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    input, button {
+        font-size: 2rem;
+        padding: 8px;
+    }
+
+    button {
+        margin-top: 10px;
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    input, button {
+        font-size: 1.5rem;
+        padding: 6px;
+    }
+
+    img {
+        width: 100px;
+        height: auto;
+    }
+}

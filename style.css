@@ -25,17 +25,13 @@ button{
     margin-top: 20px;
     padding: 10px;
     font-size: 3rem;
-    background-color: blue;
-    border: none;
+    background-color: transparent;
+    border: 2px solid white;
     border-radius: 10px;
-    color: white;
+    color: rgb(252, 249, 249);
     cursor: pointer;
     margin-left: 10px;
     transition: 0.4s ease;
-}
-
-button:active{
-    background-color: red;
 }
 
 button:hover{
@@ -49,8 +45,13 @@ h1{
 }
 
 h1:hover{
-    filter: drop-shadow(0 0 2em rgb(139, 139, 195));
+    filter: drop-shadow(0 1em 2em rgb(139, 139, 195));
 }
+
+.para{
+    font-size: 3rem;
+}
+
 
 /* Default styles for larger screens are already defined */
 

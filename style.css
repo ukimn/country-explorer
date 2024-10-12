@@ -5,7 +5,8 @@ body{
     align-items: center;
     flex-direction: column;
     height: 100vh;
-    background-color: black;
+    background-color: #242020;
+    color: white;
 }
 
 
@@ -39,6 +40,16 @@ button:active{
 
 button:hover{
     transform: scale(1.1);
+}
+
+h1{
+    font-size: 3rem;
+    transition: 0.9s ease all;
+    cursor: pointer;
+}
+
+h1:hover{
+    filter: drop-shadow(0 0 2em rgb(139, 139, 195));
 }
 
 /* Default styles for larger screens are already defined */
